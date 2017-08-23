@@ -10,6 +10,6 @@ import org.springframework.context.annotation.Configuration;
 public class DemoConfiguration {
 	@Bean
 	public List<String> cats() {
-		return Arrays.asList("Bengal", "Lion");
+		return Arrays.asList("Tiger", "Lion");
 	}
 }
